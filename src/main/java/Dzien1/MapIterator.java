@@ -20,11 +20,4 @@ class MapIterator extends Thread
       System.out.print( it.next() + " " );
     }
   }
-  public void run()
-  {
-    for(int i=1; i < 3; ++i)
-    {
-      System.out.print(i + "..");
-    }
-  }
 }
